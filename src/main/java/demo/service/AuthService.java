@@ -9,7 +9,7 @@ public class AuthService {
         if(!PasswordUtil.validatePassword(password))
             return false;
 
-        if(username.equals("admin") && password.equals("adm"))
+        if(username.equals("admin") && password.equals("adam"))
             return true;
 
         return false;
