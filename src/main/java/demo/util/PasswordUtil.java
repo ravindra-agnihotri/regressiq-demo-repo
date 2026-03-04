@@ -8,7 +8,7 @@ public class PasswordUtil {
             return false;
 
         // changed rule
-        return password.length() > 8;
+        return password.length() > 12;
 
     }
 
