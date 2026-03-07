@@ -15,4 +15,8 @@ public class AuthService {
         return false;
     }
 
+    public void authLog(String password){
+        PasswordUtil.validatePassword(password);
+    }
+
 }
