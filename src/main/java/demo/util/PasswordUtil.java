@@ -11,5 +11,14 @@ public class PasswordUtil {
         return password.length() > 20;
 
     }
+    public static boolean validatePassword(int password) {
+
+        if(password == 1)
+            return false;
+
+
+        return password.length() > 20;
+
+    }
 
 }
